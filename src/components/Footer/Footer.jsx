@@ -52,13 +52,10 @@ export default function Footer() {
           </nav>
 
           {/* Privacy note */}
-          <p
-            className="small mb-0 d-flex align-items-center gap-1"
-            style={{ color: 'var(--cc-muted)' }}
-          >
+          {/* <p  className="small mb-0 d-flex align-items-center gap-1" style={{ color: 'var(--cc-muted)' }}   >
             <FontAwesomeIcon icon={faShieldHalved} className="me-1" />
             Runs locally in your browser
-          </p>
+          </p> */}
         </div>
 
         <hr style={{ borderColor: 'var(--cc-line)', margin: '1rem 0 0' }} />
